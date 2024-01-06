@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Growth Advisory</title>
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<body>
+    <div class="container">
+        <header>
+          <div class="gnb-outer">
+            <nav>
+              <ul class="gnb">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="industry.html">Industry</a>
+                </li>
+                <li>
+                  <a href="#">Solutions</a>
+                  <div class="dropdown">
+                    <a href="growthAdvisory.html">Growth Advisory</a>
+                    <a href="#">Growth Opportunity Analytics</a>
+                    <a href="#">Events</a>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">About Us</a>
+                  <div class="dropdown">
+                    <a href="#">Why GlobaLee</a>
+                    <a href="#">Our History</a>
+                    <a href="#">Our Experts</a>
+                    <a href="#">Our Locations</a>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">World Opinion</a>
+                  <div class="dropdown">
+                    <a href="#">Arab</a>
+                    <a href="#">Dubai</a>
+                    <a href="#">GCC</a>
+                    <a href="#">Asia Pacific</a>
+                    <a href="#">South Korea</a>
+                    <a href="#">Japan</a>
+                    <a href="#">South Asia</a>
+                    <a href="#">South America</a>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">Strategic Partnerships</a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                </li>
+                <li>
+                  <div class="trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </li>
+              </ul>
+              <div class="sitemap-outer">
+                <div class="sitemap">
+                  <div>
+                    <b><a href="#">Industry</a></b>
+                  </div>
+                  <div>
+                    <b>Solutions</b>
+                    <a href="#">Growth Advisory</a>
+                    <a href="#">Growth Opportunity Analytics</a>
+                    <a href="#">Events</a>
+                  </div>
+                  <div>
+                    <b>About Us</b>
+                    <a href="#">Why GlobaLee</a>
+                    <a href="#">Our History</a>
+                    <a href="#">Our Experts</a>
+                    <a href="#">Our Locations</a>
+                  </div>
+                  <div>
+                    <b>World Opinion</b>
+                    <a href="#">Arab</a>
+                    <a href="#">Dubai</a>
+                    <a href="#">GCC</a>
+                    <a href="#">Asia Pacific</a>
+                    <a href="#">South Korea</a>
+                    <a href="#">Japan</a>
+                    <a href="#">South Asia</a>
+                    <a href="#">South America</a>
+                  </div>
+                  <div>
+                    <b><a href="#">Strategic Partnerships</a></b>
+                  </div>
+                  <div>
+                    <b><a href="#">Contact Us</a></b>
+                  </div>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <section class="growthAdvisory-top">
+          <div class="inner">
+            <h1>
+              <span>Growth Advisory</span>quisquam est qui dolorem ipsum quia dolor
+            </h1>
+            <p>
+              Nullam convallis sem sit amet lorem maximus iaculis. Phasellus
+              hendrerit viverra mauris, quis ornare ex. Pellentesque ultricies est
+              quis arcu tincidunt aliquam. Nulla tincidunt mauris sed tortor
+            </p>
+          </div>
+          <img src="./images/fallenLeaves.jpg" alt="" />
+        </section>
+        <section class="growthAdvisory-services">
+            <div class="inner">
+              <div class="headline">
+                <h1>Core Growth Advisory Services</h1>
+                <hr />
+              </div>
+              <div class="items">
+                <div class="photo">
+                    <img src="./images/sea2.jpg" alt="" />
+                </div>
+                <div class="item">
+                    <b>Web Portfolio</b>
+                    <h2>Growth Pipeline</h2>
+                    <p>
+                      사용자의 편리성을 생각하며 미술이라는 컨텐츠와 어울리게 UX/UI
+                      구조설계를 진행하였습니다. 그리고 기준 사이트에서 반응형
+                      페이지가 될 수 있도록 제작하였습니다.
+                      <br /><br />
+                      <a href="">Learn more here</a>
+                    </p>
+                  </div>
+                  <div class="item">
+                    <b>Web Portfolio</b>
+                    <h2>Growth Analytics</h2>
+                    <p>
+                      사용자의 편리성을 생각하며 미술이라는 컨텐츠와 어울리게 UX/UI
+                      구조설계를 진행하였습니다. 그리고 기준 사이트에서 반응형
+                      페이지가 될 수 있도록 제작하였습니다.
+                      <br /><br />
+                      <a href="">Learn more here</a>
+                    </p>
+                  </div>
+                  <div class="item">
+                    <b>Web Portfolio</b>
+                    <h2>Manufacturing Process Consulting</h2>
+                    <p>
+                      사용자의 편리성을 생각하며 미술이라는 컨텐츠와 어울리게 UX/UI
+                      구조설계를 진행하였습니다. 그리고 기준 사이트에서 반응형
+                      페이지가 될 수 있도록 제작하였습니다.
+                      <br /><br />
+                      <a href="">Learn more here</a>
+                    </p>
+                  </div>
+              </div>
+            </div>
+          </section>
+        <script>
+          $(".trigger").click(function () {
+            $(this).toggleClass("active");
+            $(".gnb li:last-child").toggleClass("active");
+            $(".sitemap-outer").fadeToggle();
+          });
+        </script>
+    </body>
+</html>
