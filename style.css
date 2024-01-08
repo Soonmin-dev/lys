@@ -235,6 +235,7 @@ nav {
 .half {
   height: 600px;
   width: 100%;
+  min-width: 1280px;
 }
 
 .half .inner {
@@ -275,6 +276,8 @@ nav {
 
 /* Section: content */
 .content {
+  width: 100%;
+  min-width: 1280px;
   padding: 80px 0px;
   display: flex;
   justify-content: center;
@@ -306,6 +309,7 @@ nav {
 
 .pic {
   width: 100%;
+  min-width: 1280px;
   display: flex;
   justify-content: center;
 }
@@ -394,6 +398,8 @@ nav {
 }
 
 .startbuck {
+  width: 100%;
+  min-width: 1280px;
   height: 800px;
   background: url(./images/sea.jpg) fixed;
   background-position: top right;
@@ -454,6 +460,7 @@ nav {
 /* Section: footer */
 .footer {
   width: 100%;
+  min-width: 1280px;
   height: 350px;
   background-color: #272c38;
 }
@@ -487,6 +494,7 @@ nav {
 /* Section: industry-top */
 .industry-top {
   width: 100%;
+  min-width: 1280px;
   height: 450px;
   position: relative;
   overflow: hidden;
@@ -567,6 +575,7 @@ nav {
 /* Section: growthAdvisory-top */
 .growthAdvisory-top {
   width: 100%;
+  min-width: 1280px;
   height: 450px;
   position: relative;
   overflow: hidden;
@@ -664,6 +673,7 @@ nav {
 .growthAdvisory-model-1 {
   height: 400px;
   width: 100%;
+  min-width: 1280px;
   margin-top: 40px;
 }
 .growthAdvisory-model-1 .inner {
@@ -708,6 +718,7 @@ nav {
 .growthAdvisory-model-2 {
   height: 400px;
   width: 100%;
+  min-width: 1280px;
 }
 .growthAdvisory-model-2 .inner {
   height: 100%;
