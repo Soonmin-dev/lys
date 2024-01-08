@@ -451,38 +451,37 @@ nav {
   }
 }
 
-@media (max-width: 960px) {
-  .sitemap {
-    display: block;
-  }
-  .sitemap div {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  .hero div p {
-    display: none;
-  }
-  .content .inner {
-    display: block;
-  }
-  .content .inner div {
-    margin-bottom: 30px;
-  }
-  .content .inner div h2 {
-    text-align: center;
-  }
+/* Section: footer */
+.footer {
+  width: 100%;
+  height: 350px;
+  background-color: #272c38;
 }
-
-@media (max-width: 1280px) {
-  nav {
-    width: 100%;
-  }
-  .gnb li:not(.gnb li:first-child, .gnb li:last-child) {
-    visibility: hidden;
-  }
-  .sitemap div a:before {
-    content: "";
-  }
+.footer .inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.footer .inner .companyInfo{
+  width: 35%;
+  padding: 70px 40px;
+}
+.footer .inner .companyInfo p:nth-child(2){
+  font-weight: 700;
+  line-height: 24px;
+}
+.footer .inner .companyInfo p:nth-child(3), .footer .inner .companyInfo p:nth-child(4) {
+  line-height: 18px;
+}
+.footer .inner .companyInfo p strong{
+  color: #1283c6;
+}
+.footer .inner .sitemap{
+  width: 65%;
+  padding: 40px;
+}
+.footer .inner div, .footer .inner .sitemap a{
+  color: white;
 }
 
 /* Section: industry-top */
@@ -746,7 +745,7 @@ nav {
 /* Section: growthAdvisory-clientIssues */
 .growthAdvisory-clientIssues {
   width: 1280px;
-  height: 600px;
+  height: 700px;
   align-items: center;
   margin: auto;
 }
