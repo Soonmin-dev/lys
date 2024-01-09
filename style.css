@@ -409,11 +409,14 @@ nav {
 .startbuck .inner {
   position: relative;
   height: 100%;
-  width: 100%;
+  width: 500px;
   min-width: 1280px;
   margin: auto;
   display: flex;
   padding: 150px 30px;
+}
+.startbuck .inner .summary {
+  width: 50%;
 }
 .startbuck h1{
   position: relative;
