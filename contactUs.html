@@ -120,11 +120,42 @@
         <section class="contactUs">
           <div class="inner">
             <div class="mail">
+                <input type="text" id="sendername"><br />
+                <input type="text" id="to"><br />
+                <input type="text" id="subject"><br />
+                <input type="text" id="replyto"><br />
+                <textarea type="text" id="message" cols="40" rows="8"></textarea><br />
+                <button onclick="sendMail();">Send</button><br />
             </div>
             <div class="global">
             </div>
           </div>
         </section> 
+        <script>
+            function sendMail() {
+                (function(){
+                    emailjs.init("oX6qgqn750lvbeS0a");
+                })();
+                var params = {
+                    sendername: document.querySelector("#sendername").value,
+                    to: document.querySelector("#to").value,
+                    subject: document.querySelector("#subject").value,
+                    replyto: document.querySelector("#replyto").value,
+                    message: document.querySelector("#message").value,
+                }
+                var serviceID = "lys_service";
+                var templateID = "template_pinjejx";
+                emailjs.send(serviceID, templateID, params)
+                .then(res => {
+                    alert("Email Sent Successfully!");
+                }).catch();
+            }
+          $(".trigger").click(function () {
+            $(this).toggleClass("active");
+            $(".gnb li:last-child").toggleClass("active");
+            $(".sitemap-outer").fadeToggle();
+          });
+        </script>
     </div>
 </body>
 </html>

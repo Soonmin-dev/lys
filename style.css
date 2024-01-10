@@ -940,3 +940,19 @@ nav {
   line-height: 30px;
   color: #172e55;
 }
+
+/* Section : contactUs */
+.contactUs {
+  width: 100%;
+  min-width: 1280px;
+  height: 1000px;
+}
+.contactUs .inner {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contactUs .inner .mail {
+  padding: 50px;
+}
